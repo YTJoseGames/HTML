@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.blocos {
+    text-align: center;
+    font-size: 0.6em;
+    background-color: #F0F8FF;
+}
+
+.todos-blocos {
+    width: 800px;
+    margin: left;
+    display: flex;
+    margin: auto;
+}
+
+.todos-blocos p {
+    font-size: 1.2em;
+}
+
+.bloco-um,
+.bloco-dois,
+.bloco-tres {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    background: #4070f4;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer .texto-footer span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .texto-footer span a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .texto-footer span a:hover {
+    color: #003768;
+    text-decoration: underline;
+}
